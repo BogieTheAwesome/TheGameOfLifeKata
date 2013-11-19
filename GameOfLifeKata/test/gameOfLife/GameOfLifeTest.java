@@ -8,7 +8,10 @@ import org.junit.Test;
 public class GameOfLifeTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void aSquareCellGridCanReportItsSizeToAUser() {
+		Grid grid = new Grid(10);
+		
+		assertEquals(10, grid.getRows());
+		assertEquals(10, grid.getColumns());
 	}
 }
